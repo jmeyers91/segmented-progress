@@ -1,19 +1,22 @@
 {
   "name": "@simplej/segmented-progress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/segmentedProgress.js",
   "author": "James Meyers",
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest",
+    "build": "npx babel src -d dist"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/jmeyers91/segmented-progress.git"
+    "type": "git",
+    "url": "https://github.com/jmeyers91/segmented-progress.git"
   },
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "jest": "^23.5.0",
     "npx": "^10.2.0"
   }
