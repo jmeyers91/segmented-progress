@@ -1,4 +1,4 @@
-const segmentedProgress = require('../index');
+const segmentedProgress = require('../dist/segmentedProgress');
 
 describe('Segmented progress', () => {
   test('Should return an array with length equal to the passed segment count', () => {
